@@ -244,7 +244,7 @@ header.headerFlotante .navBar li a:hover {
 .noticias .fourNews .box .imgNews {
   position: relative;
   width: 100%;
-  height: 300px;
+  height: 200px;
 }
 
 .noticias .fourNews .box .imgNews img {
@@ -258,12 +258,47 @@ header.headerFlotante .navBar li a:hover {
 
 .noticias .fourNews .box .nombreNews {
   padding-top: 15px;
+  margin-bottom: 10px;
 }
 
 .noticias .fourNews .box .nombreNews h3 {
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 1.2em;
+  text-align: center;
+  /* font-style: italic; */
+}
+
+.noticias .fourNews .box .descripcionNews {
+  padding-top: 15px;
+}
+
+.noticias .fourNews .box .descripcionNews p {
+  color: black;
   font-size: 1em;
-  font-style: italic;
+  text-align: justify;
+  font-style: italic; 
+}
+
+.urlNoticia{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.masNews {
+  font-size: 1em;
+  display: inline-block;
+  background: yellow;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: 0.5s;
+  font-weight: 500;
+}
+
+.masNews:hover {
+  letter-spacing: 3px;
 }
 
 /* ------------ESTILOS PARA LA SECCIÓN EQUIPO------------ */
