@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 1000px;
+}
+
+p {
+  font-weight: 300;
+  color: white;
+}
+
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000; /*para poner el header encima de todo*/
+  transition: 0.7s;
+  padding: 30px 100px;
+}
+
+header .navBar li a:hover {
+  color: yellow;
+}
+
+/* Desde aqui los que tengan header.headerFlotante se refiere a los cambios del estilo cuando se aplique el JS en donde el header queda flotanto */
+
+header.headerFlotante {
+  background: white;
+  padding: 10px 100px;
+  box-shadow: lightslategray;
+}
+
+header.headerFlotante .logo {
+  color: black;
+}
+
+header.headerFlotante .logo span {
+  color: blue;
+}
+
+header.headerFlotante .navBar li a {
+  color: black;
+}
+
+header.headerFlotante .navBar li a:hover {
+  color: blue;
+}
+
+/* hasta aqui ------------------------------------------ */
+
+.logo {
+  color: white;
+  font-size: 2em;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.logo span {
+  color: yellow;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.navBar {
+  position: relative;
+  display: flex;
+}
+
+.navBar li {
+  list-style: none;
+  margin-left: 40px;
+}
+
+.navBar li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+/* 100 vh para que la imagen ocupe todo el alto disponible para la sección*/
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/section1.jpg);
+  background-size: cover;
+}
+
+.slogan {
+  text-align: center;
+  color: white;
+  max-width: 1200px;
+}
+
+/*tamaño 6 veces el tamaño de la fuente del documento*/
+.nombreCompañia {
+  font-size: 5em;
+  color: white;
+  text-align: center;
+}
+
+.presentacion {
+  font-size: 1em;
+  color: white;
+}
+
+.mas {
+  font-size: 1em;
+  display: inline-block;
+  margin-top: 15px;
+  background: yellow;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: 0.7s;
+  font-weight: 500;
+}
+
+.mas:hover {
+  letter-spacing: 4px;
+}
+
+/* ------------ESTILOS PARA LA SECCIÓN SERVICIOS------------ */
+
+.tituloServicios {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tituloServicios p {
+  color: black;
+  margin-bottom: 15px;
+}
+
+.tituloServicios h2 {
+  color: black;
+  font-size: 3em;
+  font-weight: 400;
+  margin-top: 80px;
+}
+
+.tituloServicios span {
+  color: blue;
+  font-weight: 800;
+}
+
+.servicios .tresServ {
+  justify-content: center;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.servicios .tresServ .box {
+  width: 340px;
+  margin: 20px;
+  border: 15px solid white;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+
+.servicios .tresServ .box .imgServ {
+  width: 100%;
+  position: relative;
+  height: 300px;
+}
+
+.servicios .tresServ .box .imgServ img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.servicios .tresServ .box .nombreServicio {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicios .tresServ .box .nombreServicio h3 {
+  font-weight: 400;
+}
+
+/* ------------ESTILOS PARA LA SECCIÓN NEWS------------ */
+
+.tituloNews {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.tituloNews p {
+  color: black;
+  margin-bottom: 15px;
+}
+
+.tituloNews h2 {
+  color: black;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.tituloNews span {
+  color: blue;
+  font-weight: 800;
+}
+
+.noticias .fourNews {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.noticias .fourNews .box {
+  width: 250px;
+  margin: 20px;
+}
+
+.noticias .fourNews .box .imgNews {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.noticias .fourNews .box .imgNews img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.noticias .fourNews .box .nombreNews {
+  padding-top: 15px;
+}
+
+.noticias .fourNews .box .nombreNews h3 {
+  font-weight: 300;
+  font-size: 1em;
+  font-style: italic;
+}
+
+/* ------------ESTILOS PARA LA SECCIÓN EQUIPO------------ */
+
+.equipo {
+  background: url(./images/section4.jpg);
+  background-size: cover;
+}
+
+.tituloTeams {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.tituloTeams h2 {
+  color: white;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.tituloTeams span {
+  color: yellow;
+  font-weight: 800;
+}
+
+.equipo .integrantes {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.equipo .integrantes .box {
+  width: 340px;
+  margin: 20px;
+  padding: 40px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.equipo .integrantes .box .imgTeams {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.equipo .integrantes .box .imgTeams img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.equipo .integrantes .box .integrante {
+  text-align: center;
+}
+
+.equipo .integrantes .box .integrante h3 {
+  font-weight: 400;
+  font-size: 1.7em;
+  margin-top: 30px;
+}
+
+.equipo .integrantes .box .integrante p {
+  color: black;
+  font-weight: 200;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+/* ------------ESTILOS PARA LA SECCIÓN FOOTER------------ */
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logoFooter {
+  color: black;
+  font-size: 1.4em;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.logoFooter span {
+  color: blue;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.footerI p {
+  color: black;
+}
+
+.footer .footerI {
+  width: 420px;
+  margin: 20px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer .footerI .lista li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer .footerI .lista a {
+  text-decoration: none;
+}
+
+.footer .footerI li {
+  list-style: none;
+}
+
+.footer .footerI h2 {
+  font-weight: 300;
+}
+
+.footerDerechos p {
+  color: black;
+  text-align: center;
+}
+
+.footerDerechos {
+  margin-bottom: 20px;
+}
