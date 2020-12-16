@@ -75,14 +75,14 @@ export default {
         {
           codigo:2,
           nombre:'Luis Monsalve',
-          descripcion: 'Descripcion',
+          descripcion: 'Lic. en Matemáticas egresado de la Universidad Industrial de Santander. Experto en la enseñanza de aplicaciones en matemáticas y estadística. Originario de la ciudad de Barranquilla.',
           rol:'Desarrollador Frondend',
           imagen:"./images/Luis.png"
         },
         {
           codigo:3,
           nombre:'Daniel Hermosilla',
-          descripcion: 'Descripcion',
+          descripcion: 'Estudiante de Ingeniería de Sistemas de la Universidad de Cundinamarca con conocimiento en desarrollo de videojuegos y web. Originario de la ciudad de Bogotá',
           rol:'Tester',
           imagen:"./images/Daniel.png"
         },
@@ -91,12 +91,12 @@ export default {
           nombre:'Miguel Sandoval',
           descripcion: 'Descripcion',
           rol:'Analista de Software',
-          imagen:"./images/Daniel.png"
+          imagen:"./images/Miguel.png"
         },
         {
           codigo:5,
           nombre:'Luisa Pedraza',
-          descripcion: 'Ingeniera Electrónica egresada de la universidad Incca de Colombia, con conocimientos en el área de control y automatización. Originaria de la ciudad de Bogotá',
+          descripcion: 'Ingeniera Electrónica egresada de la Universidad Incca de Colombia, con conocimientos en el área de control y automatización. Originaria de la ciudad de Bogotá',
           rol:'Desarrollador Backend',
           imagen:"./images/Luisa.png"
         }
