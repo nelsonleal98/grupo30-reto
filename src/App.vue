@@ -82,7 +82,7 @@ export default {
         {
           codigo:3,
           nombre:'Daniel Hermosilla',
-          descripcion: 'Estudiante de Ingeniería de Sistemas de la Universidad de Cundinamarca con conocimiento en desarrollo de videojuegos y web. Originario de la ciudad de Bogotá',
+          descripcion: 'Estudiante de Ingeniería de Sistemas de la Universidad de Cundinamarca con conocimiento en desarrollo de videojuegos y web. Originario de la ciudad de Zipaquirá',
           rol:'Tester',
           imagen:"./images/Daniel.png"
         },
