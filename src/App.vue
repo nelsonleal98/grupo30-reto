@@ -15,7 +15,7 @@
         <div class="tituloNews">
 
             <h2> <span>N</span>oticias</h2>
-            <p>Enterate de lo último en tecnología del mundo en este portal</p>
+            <p>Enterate de lo último de tecnología en el mundo en este portal</p>
 
         </div>
         
@@ -76,7 +76,7 @@ export default {
           codigo:2,
           nombre:'Luis Monsalve',
           descripcion: 'Lic. en Matemáticas egresado de la Universidad Industrial de Santander. Experto en la enseñanza de aplicaciones en matemáticas y estadística. Originario de la ciudad de Barranquilla.',
-          rol:'Desarrollador Frondend',
+          rol:'Desarrollador Frontend',
           imagen:"./images/Luis.png"
         },
         {

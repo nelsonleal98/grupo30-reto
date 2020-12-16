@@ -1,5 +1,5 @@
 <template>
-    <section class="banner" id="banner">
+    <div class="banner" id="banner">
         <div class="slogan">
 
             <h2 class="nombreCompañia"> La Mejor Tecnología </h2>
@@ -9,7 +9,7 @@
             <a class="mas" href=""> DIME MAS</a>
 
         </div>
-    </section>
+    </div>
 </template>
 
 <script>
