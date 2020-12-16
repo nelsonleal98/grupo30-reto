@@ -27,17 +27,16 @@
     
     <!-- --------------- Sección de Equipo ---------------  -->
     <section class="equipo" id="equipo">
-    <div class="tituloTeams">
-
-        <h2> <span>N</span>uestro <span>E</span>quipo</h2>
-        <p>Tienes el mejor personal a tu disposición</p>
-
-    </div>
-  <team-card></team-card>
-
-    
-</section>
-
+        <div class="tituloTeams">
+            <h2> <span>N</span>uestro <span>E</span>quipo</h2>
+            <p>Tienes el mejor personal a tu disposición</p>                 
+        </div>
+        <div class="integrantes">
+          <div v-for="(miembro, index) of Equipo" :key="index">
+                <team-card :member="miembro"></team-card>
+              </div>
+        </div>   
+    </section>
 <!-- --------------- Sección Footer ---------------  -->
   <seccion-footer></seccion-footer>
     
@@ -62,6 +61,47 @@ export default {
     SeccionNoticias,
     TeamCard,
     SeccionFooter,
+  },
+  data(){
+    return{
+      Equipo:[
+        {
+          codigo:1,
+          nombre:'Nelson Leal',
+          descripcion: 'Ingeniero en Telecomunicaciones egresado de la Universidad de Pamplona, con conocimiento en redes, programación e infrastructura soporte bajo RITEL. Originario de la ciudad de Cúcuta',
+          rol:'Arquitecto de Software',
+          imagen:"./images/Nelson.png"
+        },
+        {
+          codigo:2,
+          nombre:'Luis Monsalve',
+          descripcion: 'Descripcion',
+          rol:'Desarrollador Frondend',
+          imagen:"./images/Luis.png"
+        },
+        {
+          codigo:3,
+          nombre:'Daniel Hermosilla',
+          descripcion: 'Descripcion',
+          rol:'Tester',
+          imagen:"./images/Daniel.png"
+        },
+        {
+          codigo:4,
+          nombre:'Miguel Sandoval',
+          descripcion: 'Descripcion',
+          rol:'Analista de Software',
+          imagen:"./images/Daniel.png"
+        },
+        {
+          codigo:5,
+          nombre:'Luisa Pedraza',
+          descripcion: 'Ingeniera Electrónica egresada de la universidad Incca de Colombia, con conocimientos en el área de control y automatización. Originaria de la ciudad de Bogotá',
+          rol:'Desarrollador Backend',
+          imagen:"./images/Luisa.png"
+        }
+      ]
+    }
   }
 }
 </script>
