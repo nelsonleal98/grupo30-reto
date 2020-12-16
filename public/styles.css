@@ -321,6 +321,7 @@ header.headerFlotante .navBar li a:hover {
   color: white;
   font-size: 3em;
   font-weight: 400;
+  margin-top: 40px;
 }
 
 .tituloTeams span {
@@ -336,7 +337,7 @@ header.headerFlotante .navBar li a:hover {
 }
 
 .equipo .integrantes .box {
-  width: 440px;
+  width: 400px;
   margin: 20px;
   padding: 40px;
   background: white;
@@ -377,7 +378,7 @@ header.headerFlotante .navBar li a:hover {
   color: black;
   text-align: justify;
   font-weight: 200;
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin-top: 5px;
 }
 
