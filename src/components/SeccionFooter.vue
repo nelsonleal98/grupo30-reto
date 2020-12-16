@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer">
+    <div class="footer">
     <div class="footerI">
 
         <a href="#banner" class="logoFooter">Todo<span>Tech</span></a>
@@ -50,7 +50,7 @@
 
         </li>
     </div>
-</footer>
+</div>
 </template>
 
 <script>

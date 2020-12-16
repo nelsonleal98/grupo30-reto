@@ -16,7 +16,7 @@ p {
   color: white;
 }
 
-header {
+.header {
   top: 0;
   left: 0;
   width: 100%;
@@ -29,31 +29,31 @@ header {
   padding: 30px 100px;
 }
 
-header .navBar li a:hover {
+.header .navBar li a:hover {
   color: yellow;
 }
 
 /* Desde aqui los que tengan header.headerFlotante se refiere a los cambios del estilo cuando se aplique el JS en donde el header queda flotanto */
 
-header.headerFlotante {
+.header.headerFlotante {
   background: white;
   padding: 10px 100px;
   box-shadow: lightslategray;
 }
 
-header.headerFlotante .logo {
+.header.headerFlotante .logo {
   color: black;
 }
 
-header.headerFlotante .logo span {
+.header.headerFlotante .logo span {
   color: blue;
 }
 
-header.headerFlotante .navBar li a {
+.header.headerFlotante .navBar li a {
   color: black;
 }
 
-header.headerFlotante .navBar li a:hover {
+.header.headerFlotante .navBar li a:hover {
   color: blue;
 }
 
@@ -407,6 +407,7 @@ header.headerFlotante .navBar li a:hover {
 
 .footerI p {
   color: black;
+  text-align: justify;
 }
 
 .footer .footerI {
