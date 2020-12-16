@@ -89,7 +89,7 @@ export default {
         {
           codigo:4,
           nombre:'Miguel Sandoval',
-          descripcion: 'Descripcion',
+          descripcion: 'Ingeniero de sistemas, conocimientos en educación y desarrollo del pensamiento computacional. Originario de la ciudad de Bogotá',
           rol:'Analista de Software',
           imagen:"./images/Miguel.png"
         },
