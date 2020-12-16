@@ -1,57 +1,13 @@
 <template>
-    <div class="integrantes">
-        <div class="box">
-
-            <div class="imgTeams">
-                <img src="./images/Daniel.png" alt="">
-            </div>
-
-            <div class="integrante">
-                <h3>Daniel</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-
+    <div class = "box">
+        <div class="imgTeams">
+            <img :src="member.imagen" alt="imagenes del equipo" height="200" width="200">
         </div>
-
-        <div class="box">
-            
-            <div class="imgTeams">
-                <img src="./images/Luis.png" alt="">
-            </div>
-
-            <div class="integrante">
-                <h3>Luis Alberto</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-
+        <div class="integrante">
+            <h3> <b>{{member.rol}}</b> </h3>
+            <h3> {{member.nombre}} </h3>
+            <p>{{member.descripcion}}</p>
         </div>
-
-        <div class="box">
-            
-            <div class="imgTeams">
-                <img src="./images/Luisa.png" alt="">
-            </div>
-
-            <div class="integrante">
-                <h3>Luisa</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-
-        </div>
-
-        <div class="box">
-            
-            <div class="imgTeams">
-                <img src="./images/Nelson.png" alt="">
-            </div>
-
-            <div class="integrante">
-                <h3>Nelson</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-
-        </div>
-
     </div>
 </template>
 
