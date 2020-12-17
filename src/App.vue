@@ -58,7 +58,7 @@
     <seccion-servicios></seccion-servicios>
 
     <!-- --------------- Sección de Noticias ---------------  -->
-    <section class="noticias" id="noticias">
+    <div class="noticias" id="noticias">
         <div class="tituloNews">
 
             <h2> <span>N</span>oticias</h2>
@@ -69,11 +69,11 @@
            <seccion-noticias></seccion-noticias> 
 
         
-    </section>
+    </div>
     
     
     <!-- --------------- Sección de Equipo ---------------  -->
-    <section class="equipo" id="equipo">
+    <div class="equipo" id="equipo">
         <div class="tituloTeams">
             <h2> <span>N</span>uestro <span>E</span>quipo</h2>
             <p>Tienes el mejor personal a tu disposición</p>                 
@@ -83,7 +83,7 @@
                 <team-card :member="miembro"></team-card>
               </div>
         </div>   
-    </section>
+    </div>
 <!-- --------------- Sección Footer ---------------  -->
   <seccion-footer></seccion-footer>
     
