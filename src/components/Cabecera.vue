@@ -1,5 +1,5 @@
 <template>
-    <div id="header" class="header">
+    <header>
 
         <a href="#inicio" class="logo">Todo<span>Tech</span></a>
 
@@ -14,7 +14,7 @@
 
         </nav>
 
-    </div>
+    </header>
 </template>
 
 <script>

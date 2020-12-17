@@ -1,15 +1,27 @@
 <template>
-    <div class="banner" id="banner">
-        <div class="slogan">
-
-            <h2 class="nombreCompañia"> La Mejor Tecnología </h2>
-
-            <p class="presentacion"> Somos la compañia número uno en el país en venta de artículos tecnógicos para el hogar o la oficina. Tenemos amplio surtido en procesadores, cases, fuentes, juegos y perifericos. Anímate a consultar nuestros articulos y disfrutar de la mejor atención y los mejores precios. </p>
-
-            <a class="mas" href=""> DIME MAS</a>
-
-        </div>
-    </div>
+    
+        <div class="wrap">
+                <div id="arrow-left" class="arrow"></div>
+                <div id="slider">
+                  <div class="slide slide1">
+                    <div class="slide-content">
+                      <span class="text-slider">Aprovecha nuestras promociones</span>
+                    </div>
+                  </div>
+                  <div class="slide slide2">
+                    <div class="slide-content">
+                      <span class="text-slider">¡No te olvides de preguntar por duestros descuentos de CyberMonday!</span>
+                    </div>
+                  </div>
+                  <div class="slide slide3">
+                    <div class="slide-content">
+                      <span class="text-slider">Siempre tendrás personal capacitado para cubrir tus necesidades</span>
+                    </div>
+                  </div>
+                </div>
+                <div id="arrow-right" class="arrow"></div>
+              </div>
+    
 </template>
 
 <script>
