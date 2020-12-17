@@ -1,14 +1,7 @@
 <template>
   <div id="app">
-    <!-- Cabecera -->
-  
-    <cabecera></cabecera>
-
-    <!-- Banner -->
-    <section class="banner" id="banner">
-    <banner-principal></banner-principal>
-    </section>
     
+   
     <!-- --------------- Sección de Servicios ---------------  -->
     <seccion-servicios></seccion-servicios>
 
@@ -43,11 +36,11 @@
   <seccion-footer></seccion-footer>
     
   </div>
+  
 </template>
 
+
 <script>
-import BannerPrincipal from './components/BannerPrincipal.vue'
-import Cabecera from './components/Cabecera.vue'
 import SeccionServicios from './components/SeccionServicios.vue'
 import SeccionNoticias from './components/SeccionNoticias.vue'
 import TeamCard from './components/TeamCard.vue'
@@ -57,8 +50,6 @@ import SeccionFooter from './components/SeccionFooter.vue'
 export default {
   name: 'App',
   components:{
-    Cabecera,
-    BannerPrincipal,
     SeccionServicios,
     SeccionNoticias,
     TeamCard,
