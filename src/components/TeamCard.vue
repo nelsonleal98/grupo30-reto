@@ -5,7 +5,7 @@
         </div>
         <div class="integrante">
             <h3> <b>{{member.rol}}</b> </h3>
-            <h3> {{member.nombre}} </h3>
+            <h3> {{member.codigo}} {{member.nombre}} </h3>
             <p>{{member.descripcion}}</p>
         </div>
     </div>
